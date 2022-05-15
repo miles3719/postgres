@@ -15,3 +15,4 @@ jobs:
     
     - name: Build the Docker image
       run: docker build . --file Dockerfile --tag miles3719/postgres:${{ github.run_number }}
+
