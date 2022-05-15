@@ -2,7 +2,7 @@ name: Postgres Docker Image CI
 
 on:
   push:
-    branches: [ main ]
+    branches: [ master ]
 
 jobs:
 
